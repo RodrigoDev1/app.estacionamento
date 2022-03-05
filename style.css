@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #2C3E40;
+}
+
+
+
+body {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px 6px;
+}
+
+.delete {
+    background-color: rgb(244, 123, 123);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+
+table {
+    background-color: #121212;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+th, td {
+    padding: 5px 25px;
+    text-align: left;
+    border-bottom: 1px solid rgb(194, 53, 53);
+}
